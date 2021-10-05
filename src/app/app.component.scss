@@ -1,0 +1,15 @@
+.loader {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: white;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+}
